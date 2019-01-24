@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/finish"
+    tools:context=".FinishActivity">
+
+
+    <LinearLayout
+        android:id="@+id/result_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tResult_Mission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mission 1 "
+            android:textAlignment="center"
+            android:textColor="@color/enable_text_color"
+            android:textSize="@dimen/large_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tResult_Level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="150dp"
+            android:text="level 1 has completed !"
+            android:textAlignment="center"
+            android:textColor="@color/enable_text_color"
+            android:textSize="@dimen/medium_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tResult_Question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/extraSmall_margin"
+            android:gravity="left"
+            android:text="Total Question : 10"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tResult_Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tResult_Question"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/extraSmall_margin"
+            android:drawableLeft="@drawable/ic_dollar"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:gravity="center_vertical"
+            android:text=" : 1"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tResult_Diamond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tResult_Score"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_diamond"
+            android:drawablePadding="@dimen/drawable_padding"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="@dimen/extraSmall_margin"
+            android:text=" : 0"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/large_margin"
+        android:background="@drawable/button_design"
+        android:text="Next Level"
+        android:textAllCaps="false"
+        android:textColor="@color/enable_text_color"
+        android:textSize="@dimen/medium_text_size"
+
+        android:textStyle="bold" />
+</RelativeLayout>

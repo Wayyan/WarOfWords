@@ -1,0 +1,248 @@
+﻿ [
+        {
+            "question": "holiday",
+            "answers": "အားလပ်ရက်,အားလတ်ရက်",
+            "ranswer": "အားလပ်ရက်"
+        },
+        {
+            "question": "animal",
+            "answers": "တိရစ္ဆာန်,တရစ္ဆာန်",
+            "ranswer": "တိရစ္ဆာန်"
+        },
+        {
+            "question": "stamp",
+            "answers": "တံဆိပ်ခေါင်း,တဆိပ်ခေါင်း",
+            "ranswer": "တံဆိပ်ခေါင်း"
+        },
+        {
+            "question": "kite",
+            "answers": "စွန်,ဆွန်",
+            "ranswer": "စွန်"
+        },
+        {
+            "question": "spring",
+            "answers": "စပရိမ်,စပရိန်",
+            "ranswer": "စပရိန်"
+        },
+        {
+            "question": "button",
+            "answers": "ကြီသီး,ကြယ်သီး",
+            "ranswer": "ကြယ်သီး",
+            "undefined": "့"
+        },
+        {
+            "question": "fan",
+            "answers": "ရတ်တောင်,ရပ်တောင်",
+            "ranswer": "ရပ်တောင်"
+        },
+        {
+            "question": "trap",
+            "answers": "ထောင်ခြောက်,ထောင်ချောက်",
+            "ranswer": "ထောင်ချောက်"
+        },
+        {
+            "question": "gardener",
+            "answers": "ဥယျာဉ်မှူး,ဦးယျာဉ်မှူး",
+            "ranswer": "ဥယျာဉ်မှူး"
+        },
+        {
+            "question": "raise",
+            "answers": "မြှင့်တင်,မြင့်တင်",
+            "ranswer": "မြှင့်တင်"
+        },
+        {
+            "question": "able",
+            "answers": "စွမ်းဆောင်နိင်သော,စွမ်းစောင်နိင်သော",
+            "ranswer": "စွမ်းဆောင်နိင်သော"
+        },
+        {
+            "question": "secret",
+            "answers": "လျှို့ဝှက်ချက်,လျို့ဝှက်ချက်",
+            "ranswer": "လျှို့ဝှက်ချက်"
+        },
+        {
+            "question": "notice",
+            "answers": "ကြော်ငြာ,ကြော်ညှာ",
+            "ranswer": "ကြော်ငြာ"
+        },
+        {
+            "question": "gay",
+            "answers": "ပျော်မျူးသော,ပျော်မြူးသော",
+            "ranswer": "ပျော်မြူးသော"
+        },
+        {
+            "question": "morning",
+            "answers": "နနက်,နံနက်",
+            "ranswer": "နံနက်"
+        },
+        {
+            "question": "dot",
+            "answers": "အစက်အပြောက်,အစစ်အပြောက်",
+            "ranswer": "အစက်အပြောက်"
+        },
+        {
+            "question": "stream",
+            "answers": "စန်းချောင်း,စမ်းချောင်း",
+            "ranswer": "စမ်းချောင်း"
+        },
+        {
+            "question": "ႍfarmer",
+            "answers": "လည်သမား,လယ်သမား",
+            "ranswer": "လယ်သမား"
+        },
+        {
+            "question": "circle",
+            "answers": "စက်ဝိုင်း,စစ်ဝိုင်း",
+            "ranswer": "စက်ဝိုင်း"
+        },
+        {
+            "question": "wet",
+            "answers": "စိုစွက်သော,စိုစွပ်သော",
+            "ranswer": "စိုစွက်သော"
+        },
+        {
+            "question": "desk",
+            "answers": "ခုံစောင်း,ခုန်စောင်း",
+            "ranswer": "ခုံစောင်း"
+        },
+        {
+            "question": "matches",
+            "answers": "မီးချစ်ဆံများ,မီးခြစ်ဆံများ",
+            "ranswer": "မီးခြစ်ဆံများ"
+        },
+        {
+            "question": "chair",
+            "answers": "ကလထိုင်,ကုလားထိုင်",
+            "ranswer": "ကုလားထိုင်"
+        },
+        {
+            "question": "basin",
+            "answers": "စလုံ,ဇလုံ",
+            "ranswer": "ဇလုံ"
+        },
+        {
+            "question": "jug",
+            "answers": "ရေကရား,ရေခရား",
+            "ranswer": "ရေကရား"
+        },
+        {
+            "question": "gun",
+            "answers": "သနတ်,သေနတ်",
+            "ranswer": "သေနတ်"
+        },
+        {
+            "question": "pupil",
+            "answers": "တပည့်,တစ်ပည့်",
+            "ranswer": "တပည့်"
+        },
+        {
+            "question": "blanket",
+            "answers": "ဆောင်,စောင်",
+            "ranswer": "စောင်"
+        },
+        {
+            "question": "sentence",
+            "answers": "ဝါကျ,ဝက်ကျ",
+            "ranswer": "ဝါကျ"
+        },
+        {
+            "question": "market",
+            "answers": "ဈေး,စေး",
+            "ranswer": "ဈေး"
+        },
+        {
+            "question": "Sunday",
+            "answers": "တနင်္ကနွေနေ့,တနင်္ဂနွေနေ့",
+            "ranswer": "တနင်္ကနွေနေ့"
+        },
+        {
+            "question": "Monday",
+            "answers": "တစ်နင်္လာနေ့,တနင်္လာနေ့",
+            "ranswer": "တနင်္လာနေ့"
+        },
+        {
+            "question": "Wednesday",
+            "answers": "ဗုတ္ဓဟူးနေ့,ဗုဒ္ဓဟူးနေ့",
+            "ranswer": "ဗုဒ္ဓဟူးနေ့"
+        },
+        {
+            "question": "ွှ့Thursday",
+            "answers": "ကြာသပတေးနေ့,ကျသပတေးနေ့",
+            "ranswer": "ကြာသပတေးနေ့"
+        },
+        {
+            "question": "January",
+            "answers": "ဇန်နဝါရီလ,ဇမ်နဝါရီလ",
+            "ranswer": "ဇန်နဝါရီလ"
+        },
+        {
+            "question": "ၤFebruary",
+            "answers": "ဖေဖော်ဝါရီလ,ဖေဖဝါရီလ",
+            "ranswer": "ဖေဖော်ဝါရီလ"
+        },
+        {
+            "question": "March",
+            "answers": "မတ်လ,မပ်လ",
+            "ranswer": "မတ်လ"
+        },
+        {
+            "question": "April",
+            "answers": "ဧပြီလ,ဧပရယ်လ",
+            "ranswer": "ဧပြီလ"
+        },
+        {
+            "question": "June",
+            "answers": "ဇွန်လ,စွန်လ",
+            "ranswer": "ဇွန်လ"
+        },
+        {
+            "question": "ဲJuly",
+            "answers": "ဇူလိုင်လ,ဇူလှိုင်လ",
+            "ranswer": "ဇူလိုင်လ"
+        },
+        {
+            "question": "August",
+            "answers": "ဩဂုတ်လ,ဩဂတ်လ",
+            "ranswer": "ဩဂုတ်လ"
+        },
+        {
+            "question": "November",
+            "answers": "နိုဘင်ဘာလ,နိုဝင်ဘာလ",
+            "ranswer": "နိုဝင်ဘာလ"
+        },
+        {
+            "question": "ီDecember",
+            "answers": "ဒီဇင်ဘာလ,ဒီစင်ဘာလ",
+            "ranswer": "ဒီဇင်ဘာလ"
+        },
+        {
+            "question": "tunnel",
+            "answers": "လှိုင်ခေါင်း,လိုဏ်ခေါင်း",
+            "ranswer": "လိုဏ်ခေါင်း"
+        },
+        {
+            "question": "ိdictation",
+            "answers": "သပ်ပုံ,သတ်ပုံ",
+            "ranswer": "သတ်ပုံ"
+        },
+        {
+            "question": "ocean",
+            "answers": "သမုဒ္တရာ,သမုဒ္ဒရာ",
+            "ranswer": "သမုဒ္ဒရာ"
+        },
+        {
+            "question": "rule",
+            "answers": "စည်းကမ်း,စည်းကန်း",
+            "ranswer": "စည်းကမ်း"
+        },
+        {
+            "question": "brigade",
+            "answers": "တတ်ဖွဲ့,တပ်ဖွဲ့",
+            "ranswer": "တပ်ဖွဲ့"
+        },
+        {
+            "question": "destroy",
+            "answers": "ပျက်စီးသည်,ပြက်စီးသည်",
+            "ranswer": "ပျက်စီးသည်"
+        }
+    ]

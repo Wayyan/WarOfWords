@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_design">
+
+    <TextView
+        android:id="@+id/title_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="War Of Words"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/logoic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/title_about"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/app_icon" />
+
+    <TextView
+        android:id="@+id/txtversion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoic"
+        android:layout_marginTop="10dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:shadowColor="#757575"
+        android:text="Version 1.0"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/developedby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtversion"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Developed By"
+        android:textColor="@color/colorPrimary"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/teamname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developedby"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Team Twelve"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teamname"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="(Computer University, Pyay)"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+</RelativeLayout>

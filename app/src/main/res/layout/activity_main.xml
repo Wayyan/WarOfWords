@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.team12.warofwords.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/single_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/margin_small">
+
+            <TextView
+                android:id="@+id/tv_init_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Time Left :"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/tv_init_time"
+                android:text="75"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <com.evolve.backdroplibrary.BackdropContainer
+        android:id="@+id/single_backdrop_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:closeIcon="@drawable/ic_close_white"
+        app:duration="200"
+        app:menuIcon="@drawable/ic_menu_white_24dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@color/colorPrimary">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginRight="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_ex_small"
+                android:padding="4dp"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="4dp"
+                app:cardElevation="4dp">
+
+                <RelativeLayout
+                    android:id="@+id/rl_single"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_highest_score_init"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:text="Highest Score"
+                        android:textColor="#fff"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_highest_current_init"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:layout_marginTop="@dimen/margin_ex_small"
+                        android:text="Current Score"
+                        android:textColor="#fff"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_highest_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="@dimen/margin_small"
+                        android:text="0"
+                        android:textColor="#fff"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/tv_current_score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="@dimen/margin_small"
+                        android:layout_marginTop="@dimen/margin_ex_small"
+                        android:text="0"
+                        android:textColor="#fff"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_dual"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/margin_small">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_friend_time_init"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Enemy Estimated Time Left"
+                            android:textColor="#fff"
+                            android:textSize="17sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:textColor="#fff"
+                            android:layout_gravity="center"
+                            android:text="(don't trust so much)"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/tv_enemy_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="75"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#fff"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/backdrop_font_style"
+            android:visibility="visible"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/cd_input_holder"
+                android:layout_marginTop="4dp"
+                android:scrollbars="vertical">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cd_input_holder"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_alignParentBottom="true"
+                android:elevation="40dp"
+                app:cardBackgroundColor="@android:color/background_light"
+                app:cardCornerRadius="6dp">
+
+                <LinearLayout
+                    android:id="@+id/lnInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight="4"
+                        android:background="@drawable/editi_text_background"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/ed_message"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="16dp"
+                            android:background="@null"
+                            android:hint=" Enter Your Word Here..."
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/btn_attempt"
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/btn_attempt_background"
+                        android:src="@drawable/ic_send_24dp" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/cd_input_holder"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="56dp"
+                android:background="@color/colorPrimaryDark"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+    </com.evolve.backdroplibrary.BackdropContainer>
+    <!--<android.support.v7.widget.CardView-->
+    <!--android:visibility="gone"-->
+    <!--android:layout_width="56dp"-->
+    <!--android:layout_height="56dp"-->
+    <!--android:layout_marginTop="36dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:elevation="56dp"-->
+    <!--app:cardBackgroundColor="@android:color/background_light"-->
+    <!--app:cardCornerRadius="24dp">-->
+    <!--<ImageView-->
+    <!--android:layout_width="48dp"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:src="@drawable/ai_face_rounded"/>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+</RelativeLayout>

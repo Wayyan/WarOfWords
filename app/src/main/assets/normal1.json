@@ -1,0 +1,118 @@
+﻿
+     [   {
+            "questions": "June",
+            "answer": "ဇွန်လ,စွန်လ,ဆွန်လ",
+            "ranswer": "ဇွန်လ"
+        },
+        {
+            "questions": "December",
+            "answer": "ဒီဇင်ဘာလ,ဒီစင်ဘာလ,ဒီဆင်ဘာလ",
+            "ranswer": "ဒီဇင်ဘာလ"
+        },
+        {
+            "questions": "kite",
+            "answer": "စွန်,ဆွန်,ဇွန်",
+            "ranswer": "စွန်"
+        },
+        {
+            "questions": "beach",
+            "answer": "ကန်းခြေ,ကမ်းခြေ,ကမ်းချေ",
+            "ranswer": "ကမ်းခြေ"
+        },
+        {
+            "questions": "dot",
+            "answer": "အစက်အပြောက်,အစစ်အပြောက်,အစက်အပျောက်",
+            "ranswer": "အစက်အပြောက်"
+        },
+        {
+            "questions": "zero",
+            "answer": "သုံည,သုည,သုန်ည",
+            "ranswer": "သုည"
+        },
+        {
+            "questions": "weak",
+            "answer": "ချူခြာသော,ခြူချာသော,ချူချာသော",
+            "ranswer": "ချူခြာသော"
+        },
+
+        {
+            "questions": "grape",
+            "answer": "စပျစ်သီး,စပစ်သီး,စပြစ်သီး",
+            "ranswer": "စပျစ်သီး"
+        },
+        {
+            "questions": "hook",
+            "answer": "ချိတ်,ချိပ်,ချိက်",
+            "ranswer": "ချိတ်"
+        },
+        {
+            "questions": "tin",
+            "answer": "သံဖူး,သန်ဘူး,သံဘူး",
+            "ranswer": "သံဘူး"
+        },
+        {
+            "questions": "parcel",
+            "answer": "ပါဆယ်ထုတ်,ပါဆယ်ထုပ်,ပါဆည်ထုပ်",
+            "ranswer": "ပါဆယ်ထုပ်"
+        },
+        {
+            "questions": "move",
+            "answer": "ရွေ့လျားသည်,ရွှေ့လျားသည်,ရွေ့လျှားသည်",
+            "ranswer": "ရွေ့လျားသည်"
+        },
+        {
+            "questions": "window",
+            "answer": "ပြတင်းပေါက်,ပတင်းပေါက်,ပျတင်းပေါက်",
+            "ranswer": "ပြတင်းပေါက်"
+        },
+        {
+            "questions": "coat",
+            "answer": "ကုပ်အကျႍ,ကုတ်အကျႍ,ကုတ်အကျီ",
+            "ranswer": "ကုတ်အကျႍ"
+        },
+        {
+            "questions": "dish",
+            "answer": "ပန်းကန်ပြား,ပကန်ပြား,ပန်ကန်ပြား",
+            "ranswer": "ပန်းကန်ပြား"
+        },
+        {
+            "questions": "ugly",
+            "answer": "ရုပ်ဆိုးသော,ရုတ်ဆိုးသော,ရုပ်စိုးသော",
+            "ranswer": "ရုပ်ဆိုးသော"
+        },
+        {
+            "questions": "kettle",
+            "answer": "ရေနွေးကရား,ရေနွေးဂရား,ရေနွေးခရား",
+            "ranswer": "ရေနွေးကရား"
+        },
+        {
+            "questions": "switch",
+            "answer": "ခလုပ်,ခလုတ်,ကလုတ်",
+            "ranswer": "ခလုတ်"
+        },
+        {
+            "questions": "wave",
+            "answer": "ဝှေ့ယမ်းသည်,ဝေ့ယမ်းသည်,ဝှေ့ယန်းသည်",
+            "ranswer": "ဝှေ့ယမ်းသည်"
+        },
+        {
+            "questions": "sharpener",
+            "answer": "ချွန်စက်,ချွှန်စက်,ချွန်ဆက်",
+            "ranswer": "ချွန်စက်"
+        },
+        {
+            "questions": "punishment",
+            "answer": "အပြစ်ဒဏ်,အပစ်ဒဏ်,အပျက်ဒဏ်",
+            "ranswer": "အပြစ်ဒဏ်"
+        },
+        {
+            "questions": "sweep",
+            "answer": "တံမြက်စည်းလှည်းသည်,တံမျက်စည်းလှည်းသည်,တမျက်စည်းလှည်းသည်",
+            "ranswer": "တံမြက်စည်းလှည်းသည်"
+        },
+        {
+            "questions": "shawl",
+            "answer": "ခြုံပုဝါ,ချုံပုဝါ,ခြုံပဝါ",
+            "ranswer": "ခြုံပဝါ"
+        }
+    ]

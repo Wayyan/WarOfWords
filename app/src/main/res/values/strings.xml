@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">War Of Words</string>
+    <string name="version">1.0</string>
+    <string name="free_name">FREE</string>
+    <string name="okay_name">OKAY</string>
+    <string name="next_name">NEXT</string>
+    <string name="nextLevel_name">Next Level</string>
+</resources>

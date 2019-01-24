@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="288dp"
+    android:layout_height="360dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/single_rl_blank"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/colorPrimary">
+<Button
+    android:id="@+id/close_complete_dialog"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_alignParentRight="true"
+    android:layout_margin="@dimen/margin_ex_small"
+    android:background="@drawable/ic_close_white"/>
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_single_crown"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:orientation="horizontal"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#fff"
+        android:src="@drawable/trophy_dual">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <TextView
+        android:id="@+id/single_tv_congratulation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circle_single_crown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_ex_small"
+        android:text="Good Job Buttler!!!"
+        android:textSize="18sp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_below="@+id/single_tv_congratulation"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="@dimen/margin_ex_small"
+        android:layout_marginTop="@dimen/margin_ex_small"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        app:cardBackgroundColor="@color/cardview_light_background">
+<RelativeLayout
+    android:id="@+id/complete_score_init"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/complete_tv_score_init"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+        android:text="Your Score:"
+        android:layout_margin="@dimen/margin_small"/>
+    <TextView
+        android:id="@+id/complete_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/complete_tv_score_init"
+        android:textColor="@color/colorAttractive"
+        android:textSize="19sp"
+        android:layout_centerHorizontal="true"
+        android:text="500"/>
+</RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_review_match"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:background="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_ex_small"
+        android:text="Review match"/>
+
+</RelativeLayout>

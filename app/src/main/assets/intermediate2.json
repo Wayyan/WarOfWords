@@ -1,0 +1,202 @@
+﻿ [
+        {
+            "question": "tamarind",
+            "answers": "မကျည်းသီး,မန်ကျည်းသီး",
+            "ranswer": "မန်ကျည်းသီး"
+        },
+        {
+            "question": "basket",
+            "answers": "ခြင်းတောင်း,ချင်းတောင်း",
+            "ranswer": "ခြင်းတောင်း"
+        },
+        {
+            "question": "့heel",
+            "answers": "ခြေဖနောင့်,ခြေဖနှောင့်",
+            "ranswer": "ခြေဖနောင့်"
+        },
+        {
+            "question": "grass",
+            "answers": "မြက်,မြစ်",
+            "ranswer": "မြက်"
+        },
+        {
+            "question": "watermelon",
+            "answers": "ဖရဲသီး,ဖယဲသီး",
+            "ranswer": "ဖရဲသီး "
+        },
+        {
+            "question": "electricity",
+            "answers": "လျှပ်စစ်ဓာတ်အား,လျပ်စစ်ဓာတ်အား",
+            "ranswer": "လျှပ်စစ်ဓာတ်အား"
+        },
+        {
+            "question": "rhyme",
+            "answers": "ကာရန်,ကာရမ်",
+            "ranswer": "ကာရန်"
+        },
+        {
+            "question": "weak",
+            "answers": "ချူခြာသော,ခြူချာသော",
+            "ranswer": "ချူခြာသော"
+        },
+        {
+            "question": "island",
+            "answers": "ကျွန်း,ကြွန်း",
+            "ranswer": "ကျွန်း"
+        },
+        {
+            "question": "bright",
+            "answers": "ညာဏ်ကောင်းသော,ဉာဏ်ကောင်းသော",
+            "ranswer": "ဉာဏ်ကောင်းသော"
+        },
+        {
+            "question": "shadow",
+            "answers": "အရိပ်,အရိတ်",
+            "ranswer": "အရိပ်"
+        },
+        {
+            "question": "fresh",
+            "answers": "လတ်ဆတ်သော,လပ်ဆတ်သော",
+            "ranswer": "လတ်ဆတ်သော"
+        },
+        {
+            "question": "salad",
+            "answers": "အသုပ်,အသုတ်",
+            "ranswer": "အသုပ်"
+        },
+        {
+            "question": "grape",
+            "answers": "စပျစ်သီး,စပစ်သီး",
+            "ranswer": "စပျစ်သီး"
+        },
+        {
+            "question": "shoot",
+            "answers": "ပစ်ခတ်သည်,ပစ်ခပ်သည်",
+            "ranswer": "ပစ်ခတ်သည်"
+        },
+        {
+            "question": "tick",
+            "answers": "အမှန်ခြစ်,အမှန်ချစ်",
+            "ranswer": "အမှန်ခြစ်"
+        },
+        {
+            "question": "present",
+            "answers": "ပစ္စုပန်,ပစ္ဆုပန်",
+            "ranswer": "ပစ္စုပန်"
+        },
+        {
+            "question": "edge",
+            "answers": "အစွန်း,အဆွန်း",
+            "ranswer": "အစွန်း"
+        },
+        {
+            "question": "sums",
+            "answers": "ပုစ္ဆာ,ပုစ္စာ",
+            "ranswer": "ပုစ္ဆာ"
+        },
+        {
+            "question": "number",
+            "answers": "ကိန်းဂဏန်း,ကိန်းကဏန်း",
+            "ranswer": "ကိန်းဂဏန်း"
+        },
+        {
+            "question": "piano",
+            "answers": "စန္ဒရား,စန္တရား",
+            "ranswer": "စန္ဒရား"
+        },
+        {
+            "question": "hook",
+            "answers": "ချိတ်,ချိပ်",
+            "ranswer": "ချိတ်"
+        },
+        {
+            "question": "saucer",
+            "answers": "ပန်းကန်ပြား,ပန်ကန်ပြား",
+            "ranswer": "ပန်းကန်ပြား"
+        },
+        {
+            "question": "handkerchief",
+            "answers": "လက်ကိုင်ပဝါ,လက်ကိုင်ပုဝါ",
+            "ranswer": "လက်ကိုင်ပဝါ"
+        },
+        {
+            "question": "socks",
+            "answers": "ခြေအိပ်တို,ခြေအိတ်တို",
+            "ranswer": "ခြေအိပ်တို"
+        },
+        {
+            "question": "stockings",
+            "answers": "ခြေအိတ်ရှည်,ခြေအိပ်ရှည်",
+            "ranswer": "ခြေအိတ်ရှည်"
+        },
+        {
+            "question": "eraser",
+            "answers": "ခဲဖျတ်,ခဲဖျက်",
+            "ranswer": "ခဲဖျက်"
+        },
+        {
+            "question": "frighten",
+            "answers": "ထိတ်လန့်စေသည်,ထိတ်လှန့်စေသည်",
+            "ranswer": "ထိတ်လန့်စေသည်"
+        },
+        {
+            "question": "angrily",
+            "answers": "စိတ်ဆိုးစွာ,စိတ်စိုးစွာ",
+            "ranswer": "စိတ်ဆိုးစွာ"
+        },
+        {
+            "question": "bushes",
+            "answers": "ချုုံပုတ်,ချုံပုပ်",
+            "ranswer": "ချုုံပုတ်"
+        },
+        {
+            "question": "heavily",
+            "answers": "လေးလန်စွာ,လေးလံစွာ",
+            "ranswer": "လေးလံစွာ"
+        },
+        {
+            "question": "ိdrop",
+            "answers": "အစက်,အဆက်",
+            "ranswer": "အစက်"
+        },
+        {
+            "question": "ride",
+            "answers": "စီးသည်,စည်းသည်",
+            "ranswer": "စီးသည်"
+        },
+        {
+            "question": "farm",
+            "answers": "လယ်တော,လည်တော",
+            "ranswer": "လယ်တော"
+        },
+        {
+            "question": "silent",
+            "answers": "တိတ်ဆိတ်သော,တိပ်ဆိတ်သော",
+            "ranswer": "တိတ်ဆိတ်သော"
+        },
+        {
+            "question": "chin",
+            "answers": "မေးစေ့,မေးဆေ့",
+            "ranswer": "မေးစေ့"
+        },
+        {
+            "question": "tooth brush",
+            "answers": "သွားပွတ်တံ,သပွတ်တံ",
+            "ranswer": "သွားပွတ်တံ"
+        },
+        {
+            "question": "point",
+            "answers": "ညွန်ပြသည်,ညွှန်ပြသည်",
+            "ranswer": "ညွှန်ပြသည်"
+        },
+        {
+            "question": "packet",
+            "answers": "အထုတ်,အထုပ်",
+            "ranswer": "အထုပ်"
+        },
+        {
+            "question": "relax",
+            "answers": "အပန်းဖြေသည်,အပမ်းဖြေသည်,အပန်းဖျေသည်",
+            "ranswer": "အပန်းဖြေသည်"
+        }
+    ]

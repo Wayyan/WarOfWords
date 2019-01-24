@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_text_size">20sp</dimen>
+    <dimen name="margin_normal">24dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="margin_ex_small">8dp</dimen>
+    <dimen name="margin_item_normal">20dp</dimen>
+    <dimen name="backdrop_height">248dp</dimen>
+    <dimen name="backdrop_playground">492dp</dimen>
+
+    <dimen name="extraSmall_margin">3dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="large_margin">20dp</dimen>
+    <dimen name="exlarge_margin">50dp</dimen>
+
+    //padding
+    <dimen name="extrasmall_padding">3dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="large_padding">20dp</dimen>
+    <dimen name="exlarge_padding">50dp</dimen>
+
+    //text size
+    <dimen name="small_text_size">8sp</dimen>
+    <dimen name="medium_text_size">16sp</dimen>
+    <dimen name="large_text_size">20sp</dimen>
+    <dimen name="exlarge_text_size">50sp</dimen>
+    <dimen name="extraLarge_text_size">25sp</dimen>
+
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">3dp</dimen>
+    <dimen name="star_cover_height">100dp</dimen>
+
+    <dimen name="image_view_width">20dp</dimen>
+    <dimen name="image_view_heigth">20dp</dimen>
+
+    <dimen name="image_view_lock_width">80dp</dimen>
+    <dimen name="image_view_lock_heigth">80dp</dimen>
+
+    <dimen name="level_padding">10dp</dimen>
+    <dimen name="level">15dp</dimen>
+    <dimen name="question_count_padding_bottom">5dp</dimen>
+    <dimen name="question_count">12dp</dimen>
+    <dimen name="score_count_padding_bottom">5dp</dimen>
+    <dimen name="score_count">12dp</dimen>
+    <dimen name="diamond_count_padding_bottom">5dp</dimen>
+    <dimen name="diamond_count">12dp</dimen>
+
+
+    <dimen name="lock_text_size">50sp</dimen>
+
+    //Width and height for View
+    <dimen name="view_width">0dp</dimen>
+    <dimen name="view_height">4dp</dimen>
+
+    <dimen name="minWidth_Question">150dp</dimen>
+    <dimen name="minWidth_Answers">250dp</dimen>
+
+    <dimen name="drawable_padding">5dp</dimen>
+
+</resources>

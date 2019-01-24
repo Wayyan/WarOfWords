@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_design"
+    android:layout_width="304dp"
+    android:layout_height="388dp">
+<Button
+    android:id="@+id/btn_close_login"
+    android:layout_width="24dp"
+    android:layout_height="24dp"
+    android:layout_margin="@dimen/margin_ex_small"
+    android:background="@drawable/ic_close_black_24dp"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgv_temp_profile"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_small"
+        android:src="@drawable/user_lite"
+        app:civ_border_color="#fff"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/tv_choose_avata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgv_temp_profile"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="20dp"
+        android:text="Choose Your Avatar"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_choose_avata"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:scrollbarSize="2dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar1"
+                style="@style/SixCircleImageviewStyle"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/user_lite" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar2"
+                style="@style/SixCircleImageviewStyle"
+                android:layout_marginLeft="@dimen/margin_normal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/iron_man_avatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar3"
+                style="@style/SixCircleImageviewStyle"
+                android:layout_marginLeft="@dimen/margin_normal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/spider_man_avatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar4"
+                style="@style/SixCircleImageviewStyle"
+                android:layout_marginLeft="@dimen/margin_normal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/hulk_avatar" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar5"
+                style="@style/SixCircleImageviewStyle"
+                android:layout_marginLeft="@dimen/margin_normal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/ant_man" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/avatar6"
+                style="@style/SixCircleImageviewStyle"
+                android:layout_marginLeft="@dimen/margin_normal"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#fff"
+                android:src="@drawable/dontknow_avata" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_avatar"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginTop="20dp"
+        android:text="Username"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_username"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:layout_marginRight="@dimen/margin_normal"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btn_submit_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:text="Submit"
+        android:textColor="@color/colorPrimaryDark" />
+</RelativeLayout>

@@ -1,0 +1,247 @@
+﻿[
+    {
+        "question": "Ant",
+        "answers": "ပုရွတ်စိတ်,ပုရွတ်ဆိတ်,ပရွတ်ဆိတ်",
+        "ranswer": "ပုရွတ်ဆိတ်"
+    },
+    {
+        "question": "Arrow",
+        "answers": "မြှား,မျှား,မြား",
+        "ranswer": "မြှား"
+    },
+    {
+        "question": "Address",
+        "answers": "လိတ်စာ,လိပ်ဆာ,လိပ်စာ",
+        "ranswer": "လိပ်စာ"
+    },
+    {
+        "question": "Box",
+        "answers": "သက်တာ,သေတ္တာ,သတ်တာ",
+        "ranswer": "သေတ္တာ"
+    },
+    {
+        "question": "Bell",
+        "answers": "ခေါင်းလောင်း,ကောင်းလောင်း,ခေါင်လောင်း",
+        "ranswer": "ခေါင်းလောင်း"
+    },
+    {
+        "questions": "Strong ",
+        "answer": "သန်မာသော,သမ်မာသော,သံမာသော",
+        "ranswer": "သန်မာသော"
+    },
+    {
+        "question": "Bottle",
+        "answers": "ပုလင်း,ပလင်း,ဖလင်း",
+        "ranswer": "ပုလင်း"
+    },
+    {
+        "question": "Basket",
+        "answers": "ခြင်းတောင်း,ချင်းတောင်း,ခြင်းသောင်း",
+        "ranswer": "ခြင်းတောင်း"
+    },
+    {
+        "question": "Dirty",
+        "answers": "ညစ်ပတ်သော,ညက်ပတ်သော,ညစ်ပက်သော",
+        "ranswer": "ညစ်ပတ်သော"
+    },
+    {
+        "question": "Forest",
+        "answers": "သစ်တော,သက်တော,သက်သော",
+        "ranswer": "သစ်တော"
+    },
+    {
+        "question": "Sibling",
+        "answers": "မွေးချင်း,မွေးခြင်း,မွှေးချင်း",
+        "ranswer": "မွေးချင်း"
+    },
+    {
+        "question": "Rough",
+        "answers": "ကြမ်းတမ်းသော,ကျမ်းတမ်းသော,ကြမ်းတန်းသော",
+        "ranswer": "ကြမ်းတမ်းသော"
+    },
+    {
+        "question": "Daily",
+        "answers": "နေ့စဉ်,နေ့စင်,နေ့ဆင်",
+        "ranswer": "နေ့စဉ်"
+    },
+    {
+        "question": "Rose",
+        "answers": "နှင်းစီ,နှင်းဆီ,နင်းဆီ",
+        "ranswer": "နှင်းဆီ"
+    },
+    {
+        "question": "Wife",
+        "answers": "ဆနီး,ဇနီး,စနီး",
+        "ranswer": "ဇနီး"
+    },
+    {
+        "question": "Bed ",
+        "answers": "အိပ်ယာ,အိတ်ယာ,အိပ်ရာ",
+        "ranswer": "အိပ်ယာ"
+    },
+    {
+        "question": "Beard",
+        "answers": "မုတ်စိတ်,မုပ်ဆိတ်,မုတ်ဆိတ်",
+        "ranswer": "မုတ်ဆိတ်"
+    },
+    {
+        "question": "Bone",
+        "answers": "အရိုး,အစ်ရိုး,အက်ရိုး",
+        "ranswer": "အရိုး"
+    },
+    {
+        "question": "Eye",
+        "answers": "မျက်လုံး,မျစ်လုံး,မြစ်လုံး",
+        "ranswer": "မျက်လုံး"
+    },
+    {
+        "question": "Hair",
+        "answers": "ဆံပင်,ဆပင်,စံပင်",
+        "ranswer": "ဆံပင်"
+    },
+    {
+        "question": "Head",
+        "answers": "ဦးခေါင်း,ဦးဂေါင်း,ဦးကောင်း",
+        "ranswer": "ဦးခေါင်း"
+    },
+    {
+        "question": "Heel",
+        "answers": "ခြေဖနောင့်,ခြေဖနှောင့်,ချေဖနှောင့်",
+        "ranswer": "ခြေဖနောင့်"
+    },
+    {
+        "question": "Garden",
+        "answers": "ဥယျာဉ်,အူးယျာဉ်,ဥယင်",
+        "ranswer": "ဥယျာဉ်"
+    },
+    {
+        "question": "Soap",
+        "answers": "ဆက််ပြာ,ဆပ်ပျာ,ဆပ်ပြာ",
+        "ranswer": "ဆပ်ပြာ"
+    },
+    {
+        "question": "Umbrella",
+        "answers": "ဓီး,ဒီး,ထီး",
+        "ranswer": "ထီး"
+    },
+    {
+        "question": "English",
+        "answers": "အင်ဂလိပ်,အင်ကလိပ်,အင်္ဂလိပ်",
+        "ranswer": "အင်္ဂလိပ်"
+    },
+    {
+        "question": "Mathematics",
+        "answers": "သင်္ချာ,သင်ချာ,သင်ခြာ",
+        "ranswer": "သင်္ချာ"
+    },
+    {
+        "question": "Cook",
+        "answers": "ချတ်ပြုတ်,ချက်ပြုတ်,ချက်ပျုတ်",
+        "ranswer": "ချက်ပြုတ်"
+    },
+    {
+        "question": "River",
+        "answers": "မျစ်,မြစ်,မြက်",
+        "ranswer": "မြစ်"
+    },
+    {
+        "question": "Banana",
+        "answers": "ငှက်ပျောသီး,ငပျောသီး,ငှက်ပြောသီး",
+        "ranswer": "ငှက်ပျောသီး"
+    },
+    {
+        "question": "Tamarind",
+        "answers": "မကျည်းသီး,မန်ကျည်းသီး,မကျီးသီး",
+        "ranswer": "မန်ကျည်းသီး"
+    },
+    {
+        "question": "Root",
+        "answers": "အမြစ်,အမျစ်,အမြက်",
+        "ranswer": "အမြစ်"
+    },
+    {
+        "question": "Grass",
+        "answers": "မြတ်,မျက်,မြက်",
+        "ranswer": "မြက်"
+    },
+    {
+        "question": "Bicycle",
+        "answers": "ဆက်ဘီး,စစ်ဘီး,စက်ဘီး",
+        "ranswer": "စက်ဘီး"
+    },
+    {
+        "question": "Chocolate",
+        "answers": "ချောကလတ်,ချောကလက်,ခြောကလက်",
+        "ranswer": "ချောကလက်"
+    },
+    {
+        "question": "Door",
+        "answers": "တံခါး,တခါး,သံခါး",
+        "ranswer": "တံခါး"
+    },
+    {
+        "question": "Aeroplane",
+        "answers": "လေယဉ်ပျံ,လေယဉ်ပြံ,လေယင်ပျံ",
+        "ranswer": "လေယဉ်ပျံ"
+    },
+    {
+        "question": "Fly",
+        "answers": "ပျံသန်းသည်,ပျံသမ်းသည်,ပြံသန်းသည်",
+        "ranswer": "ပျံသန်းသည်"
+    },
+    {
+        "question": "April",
+        "answers": "ဧပြီလ,ဧပီလ,အေပြီလ",
+        "ranswer": "ဧပြီလ"
+    },
+    {
+        "question": "September",
+        "answers": "ဆက်တင်ဘာလ,စက်တင်ဘာလ,စစ်တင်ဘာလ",
+        "ranswer": "စက်တင်ဘာလ"
+    },
+    {
+        "question": "Pupil",
+        "answers": "တပည့်,တပဲ့,တစ်ပည့်",
+        "ranswer": "တပည့်"
+    },
+    {
+        "question": "Yard",
+        "answers": "ကိုက်,ဂိုက်,ကိုတ်",
+        "ranswer": "ကိုက်"
+    },
+    {
+        "question": "Health",
+        "answers": "ကျန်းမာရေး,ကျမ်းမာရေး,ကြန်းမာရေး",
+        "ranswer": "ကျန်းမာရေး"
+    },
+    {
+        "question": "Violin",
+        "answers": "တယော,တစ်ယော,တရော",
+        "ranswer": "တယော"
+    },
+    {
+        "question": "Artist",
+        "answers": "ပန်းချီဆရာ,ပမ်းချီဆရာ,ပန်းခြီဆရာ",
+        "ranswer": "ပန်းချီဆရာ"
+    },
+    {
+        "question": "Punish",
+        "answers": "အပစ်ပေးသည်,အပျစ်ပေးသည်,အပြစ်ပေးသည်",
+        "ranswer": "အပြစ်ပေးသည်"
+    },
+    {
+        "question": "Pineapple",
+        "answers": "နာနတ်သီး,နနတ်သီး,နှနတ်သီး",
+        "ranswer": "နာနတ်သီး"
+    },
+    {
+        "question": "Grape",
+        "answers": "စပြစ်သီး,စပျစ်သီး,စပျက်သီး",
+        "ranswer": "စပျစ်သီး"
+    },
+    {
+        "question": "Watermelon",
+        "answers": "ဖရဲသီး,ဖယဲသီး,ပရဲသီး",
+        "ranswer": "ဖရဲသီး"
+    }
+]

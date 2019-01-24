@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="155dp"
+    android:layout_height="200dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        card_view:cardCornerRadius="@dimen/card_album_radius"
+        card_view:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/view_color">
+
+
+            <RelativeLayout
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/star_cover_height"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:id="@+id/star_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/star1"
+                        android:layout_width="@dimen/image_view_width"
+                        android:layout_height="@dimen/image_view_heigth"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_star_lock" />
+
+                    <ImageView
+                        android:id="@+id/star2"
+                        android:layout_width="@dimen/image_view_width"
+                        android:layout_height="@dimen/image_view_heigth"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_star_lock" />
+
+                    <ImageView
+                        android:id="@+id/star3"
+                        android:layout_width="@dimen/image_view_width"
+                        android:layout_height="@dimen/image_view_heigth"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_star_lock" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imgLock"
+                    android:layout_width="@dimen/image_view_lock_width"
+                    android:layout_height="@dimen/image_view_lock_heigth"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/large_padding"
+                    android:src="@drawable/ic_lock"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgViewMore"
+                    android:layout_width="@dimen/image_view_lock_width"
+                    android:layout_height="@dimen/image_view_lock_heigth"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/medium_padding"
+                    android:src="@drawable/ic_view_more"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/mission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/level_padding"
+                    android:textColor="@color/album_title"
+                    android:textSize="@dimen/level" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnail"
+                android:lineSpacingExtra="@dimen/level_padding"
+                android:paddingBottom="@dimen/level_padding"
+                android:paddingLeft="@dimen/level_padding"
+                android:paddingRight="@dimen/level_padding"
+                android:textSize="@dimen/question_count" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question"
+                android:drawableLeft="@drawable/ic_card_dollar"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:paddingBottom="@dimen/level_padding"
+                android:paddingLeft="@dimen/level_padding"
+                android:paddingRight="@dimen/level_padding"
+                android:textSize="@dimen/score_count" />
+
+            <TextView
+                android:id="@+id/diamond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/score"
+                android:drawableLeft="@drawable/ic_card_diamond"
+                android:drawablePadding="@dimen/drawable_padding"
+                android:paddingBottom="@dimen/level_padding"
+                android:paddingLeft="@dimen/level_padding"
+                android:paddingRight="@dimen/level_padding"
+                android:textSize="@dimen/diamond_count" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="288dp"
+    android:layout_height="332dp"
+    android:background="@drawable/dialog_design">
+
+    <TextView
+        android:id="@+id/tv_no_device"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:background="@drawable/corner_red_16dp"
+        android:gravity="center"
+        android:text="Tip:  Search Your Friend First!!"
+        android:textColor="#ccffffff" />
+
+    <View
+        android:id="@+id/view_inner_circle_1"
+        android:layout_width="178dp"
+        android:layout_height="178dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/dark_circle_design"
+        android:visibility="invisible" />
+
+
+    <Button
+        android:id="@+id/btn_search_dialog_close"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_ex_small"
+        android:background="@drawable/ic_close_white_24dp" />
+
+    <ListView
+        android:id="@+id/list_devices"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/corner_blue_16dp"
+        android:padding="@dimen/margin_ex_small"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_one_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_devices"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:text="Search , Connect And Play"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_two_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_one_dialog"
+        android:layout_centerHorizontal="true"
+        android:text="With Your Friend.."
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/btn_discover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:background="@drawable/btn_search_red_design"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal"
+        android:text="Search"
+        android:textColor="#fff" />
+
+</RelativeLayout>

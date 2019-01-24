@@ -1,0 +1,247 @@
+﻿ [
+        {
+            "question": "Frog",
+            "answers": "ဖားပြုတ်,ဖားပြုပ်",
+            "ranswer": "ဖားပြုတ်"
+        },
+        {
+            "question": "Satellite",
+            "answers": "ဂြိုလ်တု,ဂြိုဟ်တု",
+            "ranswer": "ဂြိုဟ်တု"
+        },
+        {
+            "question": "Jute",
+            "answers": "ဂုံလျှော်,ဂုန်လျှော်",
+            "ranswer": "ဂုန်လျှော်"
+        },
+        {
+            "question": "Coin",
+            "answers": "အကြွေစေ့,အကြွေဆေ့",
+            "ranswer": "အကြွေစေ့"
+        },
+        {
+            "question": "Evening",
+            "answers": "ညနေချမ်း,ညနေခြမ်း",
+            "ranswer": "ညနေချမ်း"
+        },
+        {
+            "question": "Gun",
+            "answers": "သနတ်,သေနတ်",
+            "ranswer": "သေနတ်"
+        },
+        {
+            "question": "Petal",
+            "answers": "ပွင့်ဖတ်,ပွင့်ဖပ်",
+            "ranswer": "ပွင့်ဖတ်"
+        },
+        {
+            "question": "Dancer",
+            "answers": "ကချေသည်,ကချေသယ်",
+            "ranswer": "ကချေသည်"
+        },
+        {
+            "question": "Gallbladder",
+            "answers": "သည်းချေအိတ်,သည်းခြေအိတ်",
+            "ranswer": "သည်းခြေအိတ်"
+        },
+        {
+            "question": "Beach",
+            "answers": "ကန်းခြေ,ကမ်းခြေ",
+            "ranswer": "ကမ်းခြေ"
+        },
+        {
+            "question": "Waterfall",
+            "answers": "ရေတခွန်,ရေတံခွန်",
+            "ranswer": "ရေတံခွန်"
+        },
+        {
+            "question": "plastic",
+            "answers": "ပလတ်စတစ်,ပလပ်စတစ်",
+            "ranswer": "ပလတ်စတစ်"
+        },
+        {
+            "question": "Nuclear",
+            "answers": "နျုကလီးယား,နူကလီးရား",
+            "ranswer": "နျုကလီးယား"
+        },
+        {
+            "question": "Earring",
+            "answers": "နားကပ်,နကပ်",
+            "ranswer": "နားကပ်"
+        },
+        {
+            "question": "Fork",
+            "answers": "ခက်ရင်း,ခရင်း",
+            "ranswer": "ခက်ရင်း"
+        },
+        {
+            "question": "Competitor",
+            "answers": "ပြိုင်ဖက်,ပြိုင်ဘက်",
+            "ranswer": "ပြိုင်ဘက်"
+        },
+        {
+            "question": "Millstone",
+            "answers": "ကြိတ်ဆုံကျောက်,ကျိတ်ဆုံကျောက်",
+            "ranswer": "ကြိတ်ဆုံကျောက်"
+        },
+        {
+            "question": "Owl",
+            "answers": "ဇီးကွက်,ဇီးကွပ်",
+            "ranswer": "ဇီးကွက်"
+        },
+        {
+            "question": "Suddenly",
+            "answers": "ရုတ်တရက်,ရုပ်တရက်",
+            "ranswer": "ရုတ်တရက်"
+        },
+        {
+            "question": "Network",
+            "answers": "ကွန်ရက်,ကွန်ယက်",
+            "ranswer": "ကွန်ရက်"
+        },
+        {
+            "question": "Scissor",
+            "answers": "ကတ်ကြေး,ကပ်ကြေး",
+            "ranswer": "ကတ်ကြေး"
+        },
+        {
+            "question": "Ink",
+            "answers": "မှင်,မင်",
+            "ranswer": "မှင်"
+        },
+        {
+            "question": "Foot-step",
+            "answers": "ခြေလန်း,ခြေလှမ်း",
+            "ranswer": "ခြေလှမ်း"
+        },
+        {
+            "question": "Desrt",
+            "answers": "ကန္တာရ,ကန္နာရ",
+            "ranswer": "ကန္တာရ"
+        },
+        {
+            "question": "Connect",
+            "answers": "ချိတ်စက်,ချိတ်ဆက်",
+            "ranswer": "ချိတ်ဆက်"
+        },
+        {
+            "question": "Wish",
+            "answers": "ဆန္ဒ,စန္ဒ",
+            "ranswer": "ဆန္ဒ"
+        },
+        {
+            "question": "Zero",
+            "answers": "သုံည,သုည",
+            "ranswer": "သုည"
+        },
+        {
+            "question": "Tool",
+            "answers": "ကရိယာ,ကိရိယာ",
+            "ranswer": "ကိရိယာ"
+        },
+        {
+            "question": "Appointment",
+            "answers": "ချိန်းဆိုချက်,ချိမ်းဆိုချက်",
+            "ranswer": "ချိန်းဆိုချက်"
+        },
+        {
+            "question": "Honour",
+            "answers": "ဂုဏ်သိက္ခာ,ဂုန်သိက္ခာ",
+            "ranswer": "ဂုဏ်သိက္ခာ"
+        },
+        {
+            "question": "Baterry",
+            "answers": "ဘက်ထရီအိုး,ဖက်ထရီအိုး",
+            "ranswer": "ဘက်ထရီအိုး"
+        },
+        {
+            "question": "Relax",
+            "answers": "အပန်းဖြေသည်,အပမ်းဖြေသည်",
+            "ranswer": "အပန်းဖြေသည်"
+        },
+        {
+            "question": "Calendar",
+            "answers": "ပြက္ခဒိန်,ပြက္ခထိန်",
+            "ranswer": "ပြက္ခဒိန်"
+        },
+        {
+            "question": "Road",
+            "answers": "လန်း,လမ်း",
+            "ranswer": "လမ်း"
+        },
+        {
+            "question": "Wround",
+            "answers": "ဒဏ်ရာ,ဒန်ရာ",
+            "ranswer": "ဒဏ်ရာ"
+        },
+        {
+            "question": "Famous",
+            "answers": "ကျော်ကြားသော,ကြော်ကြားသော",
+            "ranswer": "ကျော်ကြားသော"
+        },
+        {
+            "question": "Advertisement",
+            "answers": "ကြော်ငြာ,ကြော်ညှာ",
+            "ranswer": "ကြော်ငြာ"
+        },
+        {
+            "question": "Price",
+            "answers": "ဈေးနှုန်း,ဈေးနှုံး",
+            "ranswer": "ဈေးနှုန်း"
+        },
+        {
+            "question": "Change",
+            "answers": "ပြောင်းလဲသည်,ပျောင်းလဲသည်",
+            "ranswer": "ပြောင်းလဲသည်"
+        },
+        {
+            "question": "Control",
+            "answers": "ထိန်းချုပ်သည်,ထိမ်းချုပ်သည်",
+            "ranswer": "ထိန်းချုပ်သည်"
+        },
+        {
+            "question": "Lock",
+            "answers": "သော့ခလောက်,သော့ဂလောက်",
+            "ranswer": "သော့ခလောက်"
+        },
+        {
+            "question": "Lunch",
+            "answers": "နေလည်စာ,နေ့လယ်စာ",
+            "ranswer": "နေ့လယ်စာ"
+        },
+        {
+            "question": "Hungry",
+            "answers": "ဆာလောင်သော,စာလောင်သော",
+            "ranswer": "ဆာလောင်သော"
+        },
+        {
+            "question": "Earthquake",
+            "answers": "ငလျင်,ငလျှင်",
+            "ranswer": "ငလျင်"
+        },
+        {
+            "question": "Few",
+            "answers": "အနည်းငယ်,အနဲငယ်",
+            "ranswer": "အနည်းငယ်"
+        },
+        {
+            "question": "Gather",
+            "answers": "တွေ့ဆုံသည်,တွေ့စုံသည်",
+            "ranswer": "တွေ့ဆုံသည်"
+        },
+        {
+            "question": "Tower",
+            "answers": "မျှော်စင်,မြှော်စင်",
+            "ranswer": "မျှော်စင်"
+        },
+        {
+            "question": "Result",
+            "answers": "ရလဒ်,ရလာဒ်",
+            "ranswer": "ရလဒ်"
+        },
+        {
+            "question": "Palace",
+            "answers": "နန်းတော်,နမ်းတော်",
+            "ranswer": "နန်းတော်"
+        }
+    ]

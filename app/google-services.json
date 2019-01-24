@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "172511486772",
+    "firebase_url": "https://warofwords-d316f.firebaseio.com",
+    "project_id": "warofwords-d316f",
+    "storage_bucket": "warofwords-d316f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172511486772:android:554604b4524b1332",
+        "android_client_info": {
+          "package_name": "com.team12.warofwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172511486772-ohr0rqv4ur7aht60tjntjb98qh4h1ruo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.team12.warofwords",
+            "certificate_hash": "c5bcaf2aea9a0b1e8e6a09006b1a34c38179a49f"
+          }
+        },
+        {
+          "client_id": "172511486772-bitd1pickjvfd246dpo463icu70q549p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCByADRg_BYwna2vQFBraBbt77YkIDgb_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172511486772-bitd1pickjvfd246dpo463icu70q549p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

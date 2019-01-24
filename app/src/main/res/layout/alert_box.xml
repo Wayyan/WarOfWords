@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/small_padding">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_close" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/close"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/medium_padding">
+
+        <ImageView
+            android:id="@+id/alert_star1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_star_unlock" />
+
+        <ImageView
+            android:id="@+id/alert_star2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_star_unlock" />
+
+        <ImageView
+            android:id="@+id/alert_star3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_star_unlock" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alter_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/startLayout"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:gravity="center"
+        android:text="You has completed Mission! "
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/medium_text_size" />
+
+    <TextView
+        android:id="@+id/alter_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alter_text1"
+        android:layout_marginBottom="@dimen/medium_margin"
+        android:text="Go to Next Misssion , Please press Okay or press Restart for play again. "
+        android:textColor="@color/text_color" />
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/alter_text2"
+        android:layout_marginLeft="@dimen/large_margin"
+        android:background="@drawable/button_design"
+        android:gravity="center"
+        android:text="Restart"
+        android:textAllCaps="false"
+        android:textColor="@color/enable_text_color" />
+
+    <Button
+        android:layout_below="@id/alter_text2"
+        android:id="@+id/okay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/restart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/large_margin"
+        android:background="@drawable/button_design"
+        android:gravity="center"
+        android:text="Okay"
+        android:textAllCaps="false"
+        android:textColor="@color/enable_text_color"
+        android:layout_marginBottom="@dimen/medium_margin"/>
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/replay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/restart"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_design"
+        android:gravity="center"
+        android:text="Replay"
+        android:textAllCaps="false"
+        android:textColor="@color/enable_text_color"
+        android:layout_below="@id/alter_text2"
+        android:layout_marginBottom="@dimen/medium_margin"/>
+</RelativeLayout>

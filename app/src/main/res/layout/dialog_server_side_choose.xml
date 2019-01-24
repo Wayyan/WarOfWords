@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="340dp"
+    android:background="@drawable/dialog_design">
+    <Button
+        android:id="@+id/btn_close_picking"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_ex_small"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_close_black_24dp"/>
+
+    <TextView
+        android:id="@+id/server_side_title"
+        style="@style/DialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Three Consonants" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/server_side_title"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/ln_first_cons"
+            style="@style/ConsonentHolder"
+            android:weightSum="5">
+
+            <Button
+                android:id="@+id/q"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="q" />
+
+            <Button
+                android:id="@+id/w"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="w" />
+
+            <Button
+                android:id="@+id/r"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="r" />
+
+            <Button
+                android:id="@+id/t"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="t" />
+
+            <Button
+                android:id="@+id/y"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="y" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_second_cons"
+            style="@style/ConsonentHolder"
+            android:layout_below="@+id/ln_first_cons"
+            android:layout_marginTop="10dp"
+            android:weightSum="5">
+
+            <Button
+                android:id="@+id/p"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="p" />
+
+            <Button
+                android:id="@+id/s"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="s" />
+
+            <Button
+                android:id="@+id/d"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="d" />
+
+            <Button
+                android:id="@+id/f"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="f" />
+
+            <Button
+                android:id="@+id/g"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="g" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_third_cons"
+            style="@style/ConsonentHolder"
+            android:layout_below="@+id/ln_second_cons"
+            android:layout_marginTop="10dp"
+            android:weightSum="5">
+
+            <Button
+                android:id="@+id/h"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="h" />
+
+            <Button
+                android:id="@+id/j"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="j" />
+
+            <Button
+                android:id="@+id/k"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="k" />
+
+            <Button
+                android:id="@+id/l"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="l" />
+
+            <Button
+                android:id="@+id/z"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="z" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_fourth_cons"
+            style="@style/ConsonentHolder"
+            android:layout_below="@+id/ln_third_cons"
+            android:layout_marginTop="10dp"
+            android:weightSum="5">
+
+            <View style="@style/ConsonentSingleStyle" />
+
+            <Button
+                android:id="@+id/x"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="x" />
+
+            <Button
+                android:id="@+id/c"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="c" />
+
+            <Button
+                android:id="@+id/v"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="v" />
+
+            <View style="@style/ConsonentSingleStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_fifth_cons"
+            style="@style/ConsonentHolder"
+            android:layout_below="@+id/ln_fourth_cons"
+            android:layout_marginTop="10dp"
+            android:weightSum="5">
+
+            <View style="@style/ConsonentSingleStyle" />
+
+            <Button
+                android:id="@+id/b"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/n"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="n" />
+
+            <Button
+                android:id="@+id/m"
+                style="@style/ConsonentSingleStyle"
+                android:background="@drawable/six_btn_design"
+                android:text="m" />
+
+            <View style="@style/ConsonentSingleStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/six_txt_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f44336"
+        android:paddingBottom="2dp"
+        android:paddingLeft="@dimen/margin_ex_small"
+        android:paddingTop="2dp"
+        android:text="Tip: Wait...Your Friend Is Picking."
+        android:textColor="#fff" />
+
+</RelativeLayout>

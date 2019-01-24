@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_word_holder"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="@dimen/margin_small"
+    android:layout_marginTop="@dimen/margin_ex_small">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_mmword_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="40dp"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:cardBackgroundColor="@android:color/background_light"
+        app:cardCornerRadius="8dp">
+
+    </android.support.v7.widget.CardView>
+
+    <!--<ScrollView-->
+    <!--android:id="@+id/scroll_word"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="8dp"-->
+    <!--&gt;-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_mmword"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--/>-->
+
+    <!--</ScrollView>-->
+    <LinearLayout
+        android:id="@+id/ln_gravcity_changable_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_avata"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/user_lite" />
+
+        <LinearLayout
+            android:id="@+id/ln_background_changeable_holder"
+            android:layout_width="264dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/left_compititor_design"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/margin_small"
+            android:paddingRight="@dimen/margin_small">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_word"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_gravity="start"
+                    android:text="Ha Ha"
+                    android:textColor="#000"
+                    android:textSize="16sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:scrollbarSize="3dp">
+
+                    <TextView
+                        android:id="@+id/tv_translate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginBottom="4dp"
+                        android:singleLine="true"
+                        android:text="translate:"
+                        android:textSize="11sp"
+                        android:textStyle="italic" />
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
